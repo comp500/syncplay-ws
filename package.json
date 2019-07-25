@@ -1,23 +1,30 @@
 {
-  "name": "syncplay-ws",
+  "name": "syncweb-gateway",
   "version": "1.0.0",
   "description": "Interfaces the Syncplay protocol with WebSockets, allowing usage in the browser.",
   "main": "index.js",
-  "dependencies": {
-    "ws": "^3.3.3"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comp500/syncplay-ws.git"
+    "url": "git+https://github.com/comp500/syncweb-gateway.git"
   },
   "author": "comp500",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/comp500/syncplay-ws/issues"
+    "url": "https://github.com/comp500/syncweb-gateway/issues"
   },
-  "homepage": "https://github.com/comp500/syncplay-ws#readme"
+  "homepage": "https://github.com/comp500/syncweb-gateway#readme",
+  "dependencies": {
+    "ws": "^7.1.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "engines": {
+    "node": "10.x"
+  }
 }
