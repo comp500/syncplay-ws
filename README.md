@@ -1,5 +1,5 @@
 # syncweb-gateway
-Interfaces the Syncplay protocol with WebSockets, allowing usage in the browser.
+Interfaces the Syncplay protocol with WebSockets, allowing usage in the browser. See [syncweb-frontend](https://github.com/comp500/syncweb-frontend) for an interface to use Syncplay in the browser.
 
 ## Hosted service
 With Heroku, I have hosted an instance of this server, allowing you to connect to the Official Syncplay servers with WebSockets. The endpoints for this free service are as follows:
